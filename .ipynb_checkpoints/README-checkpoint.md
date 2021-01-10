@@ -6,9 +6,9 @@ Part of this assignment is learning to test and refine models. As such the follo
 2) Which model displayed the best accuracy tracking?
 3) How was the window size determined?
 
-### Question 1 and 2
+#### Question 1 and 2
 
-The model with both the lowest loss and best accuracy tracking was the closing price predictor [closing price](lstm_stock_predictor_closing.ipynb). In addition to the loss metric calculated by Tensorflow, the supplemental measure of mean squared error was calculated to determine the best accuracy tracking.
+The model with both the lowest loss and best accuracy tracking was the closing price predictor [closing price](https://github.com/Luminous171/Deep_Learning_Hmwk/blob/main/Starter_Code/lstm_stock_predictor_closing.ipynb). In addition to the loss metric calculated by Tensorflow, the supplemental measure of mean squared error was calculated to determine the best accuracy tracking.
 
 | Final Model with 100 Epochs |             |      |     |            |
 | --------------------------- | ----------- | ---- | --- | ---------- |
@@ -18,7 +18,7 @@ The model with both the lowest loss and best accuracy tracking was the closing p
 
 
 
-### Question 3
+#### Question 3
 
 To determine the best window size. The model was run multiple times holding constant all other parameters except for window size. The best results was a window size of 3.
 
